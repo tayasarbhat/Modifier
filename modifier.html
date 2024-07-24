@@ -132,8 +132,8 @@
                     return cell;
                 });
 
-                // Split data into chunks of 1500
-                const chunkSize = 1500;
+                // Split data into chunks of 8000
+                const chunkSize = 8000;
                 let chunkedData = [];
                 for (let i = 0; i < processedData.length; i += chunkSize) {
                     chunkedData.push(processedData.slice(i, i + chunkSize));
